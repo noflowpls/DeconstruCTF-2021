@@ -7,3 +7,16 @@
  
  Url:  http://very.uniquename.xyz:2086/
  
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-18-37.png)
+
+# Examming Website
+
+When We go to website, it was just normal. There is nothing interesting.
+
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-19-16.png)
+
+So let look at the page's source code.
+
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-19-28.png)
+
+As you can see, we can see three interesting. They are`fake flag`
