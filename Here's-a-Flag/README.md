@@ -23,3 +23,7 @@ As you can see, we can see three interesting. They are `fake flag` and `index.js
 
 If we look into `index.js` we can see base64 strings. Let decode it
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-20-42.png)
+
+After decode the base64 strings, we got youtube video link.
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-20-50.png)
+
