@@ -37,7 +37,7 @@ And got response back with `4`. So that mean our `SSTI` injection is success. Bi
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-39-48.png)
 
 After tesing many `SSTI` payloads. One payload from [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection) worked.
-![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-39-58.png)
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-40-16.jpg)
 
 The Payload is `{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() }}` and it worked and return with flag. Bingo! again 😋.
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-40-23.png)
