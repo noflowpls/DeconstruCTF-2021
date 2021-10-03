@@ -15,3 +15,9 @@ When We go to website, we can see that we can put `SMTP Ip and Port` and We can 
 
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-32-10.png)
 
+# Thinking The Vulnerability
+
+First i am spending time with injecting `SQL injection` and `XSS`. We got `500` error everytime. And After a while one of my teammates found that we need to put real `SMTP server and port.` So i tested `smtp.google.com` in `Host` field  and put `25 in Port` field. and we submit it but get `500` error. What?🤔.
+
+After a while, i understand that we need to put `recipitents(1).csv` to submit our input to ping to `smtp.google.com`. So tried to ping with the file and got success. we can ping but not get anything. But THis is our first success.
+
