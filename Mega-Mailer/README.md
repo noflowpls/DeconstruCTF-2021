@@ -32,3 +32,10 @@ And i host my `smtp` server in vps locally by python3 `python3 -m smtpd -c Debug
 
 And i put the `vps machine port forwarded ip and port` in Host and port field and Test the `SSTI` in `Main Body` field.
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-39-39.jpg)
+
+And got response back with `4`. So that mean our `SSTI` injection is success. Bingo! 😋
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-39-48.png)
+
+After tesing many `SSTI` payloads. One payload from [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection) worked.
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-39-58.png)
+
