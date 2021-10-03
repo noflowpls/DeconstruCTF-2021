@@ -21,3 +21,6 @@ First i am spending time with injecting `SQL injection` and `XSS`. We got `500` 
 
 After a while, i understand that we need to put `recipitents(1).csv` to submit our input to ping to `smtp.google.com`. So tried to ping with the file and got success. we can ping but not get anything. But THis is our first success.
 
+After while, i got a idea to run our `smtp` server locally and do `port forward` to make our local `smtp server` to be global. So we can get response from server in our machine.
+
+For that i used free `vps` machine called [goorm](https://ide.goorm.io/) that can do port forward.
