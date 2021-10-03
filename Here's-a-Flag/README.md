@@ -19,4 +19,8 @@ So let look at the page's source code.
 
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-19-28.png)
 
-As you can see, we can see three interesting. They are`fake flag`
+As you can see, we can see three interesting. They are `fake flag` and `index.js` and `styles.css`. So let look at all.
+
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-20-42.png)
+
+If we look into `index.js` we can see base64 strings. Let decode it
