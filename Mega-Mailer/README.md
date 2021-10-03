@@ -23,9 +23,12 @@ After a while, i understand that we need to put `recipitents(1).csv` to submit o
 
 After while, i got a idea to run our `smtp` server locally and do `port forward` to make our local `smtp server` to be global. So we can get response from server in our machine.
 
-For that i used free `vps` machine called [goorm](https://ide.goorm.io/) that can do port forward.
+For that i used free `vps container` service called [goorm](https://ide.goorm.io/) that can do port forward.
 
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-38-54.jpg)
  
 And i host my `smtp` server in vps locally and do port forward.
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-39-15.png)
+
+And i put the `vps machine port forwarded ip and port` in Host and port field and Test the `SSTI` in `Main Body` field.
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-39-39.jpg)
