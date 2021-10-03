@@ -27,5 +27,19 @@ If we look into `index.js` we can see base64 strings. Let decode it
 After decode the base64 strings, we got youtube video link.
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-20-50.png)
 
-Lol. That just troll. 😂
+Lol. That was just troll. 😂
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-21-15.png)
+
+So let look at the `styles.css`. In this file, you can see `ROT13` string. Cool! Let decode this.
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-21-42.png)
+
+When we deocde it with `23` Amount, we got flag.
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-28-39.png)
+
+#Summary
+Easy Challenge but give us a reminder to check all files in next ctf website.
+
+# Flag
+dsc{welcome_to_deconstructf}
+
+# Thanks For reading!
