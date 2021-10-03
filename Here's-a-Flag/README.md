@@ -27,3 +27,5 @@ If we look into `index.js` we can see base64 strings. Let decode it
 After decode the base64 strings, we got youtube video link.
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-20-50.png)
 
+Lol. That just troll. 😂
+![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Here's-a-Flag/images/Screenshot%20from%202021-10-02%2011-21-15.png)
