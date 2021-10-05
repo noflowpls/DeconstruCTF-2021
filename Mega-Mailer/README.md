@@ -7,7 +7,7 @@ Description: We recently launched a mass email sender that can work with any SMT
 
 Url: http://very.uniquename.xyz:8080/
 
-This `Mega Mailer` challenge is one of the hardest web challenges in this CTF. Me and my teammates need to spend a lot of times on this challenges. However This was a nice challenge.
+This `Mega Mailer` challenge is one of the hardest web challenges in this CTF. Me and my teammates need to spend a lot of times on this challenges. However This was a nice challenge. Thanks to CTF organizarers and challenge authors for making Amazing Challenges.
 
 ![CTF](https://github.com/ComdeyOverFlow/DeconstruCTF-2021/blob/main/Mega-Mailer/images/Screenshot%20from%202021-10-03%2005-32-04.png)
 
